@@ -8,7 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
 env/
+=======
+>>>>>>> 58b5283... Initial commit
 build/
 develop-eggs/
 dist/
@@ -20,9 +23,19 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
 *.egg-info/
 .installed.cfg
 *.egg
+=======
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+>>>>>>> 58b5283... Initial commit
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -37,13 +50,24 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
+=======
+.nox/
+>>>>>>> 58b5283... Initial commit
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *,cover
 .hypothesis/
+=======
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+>>>>>>> 58b5283... Initial commit
 
 # Translations
 *.mo
@@ -52,6 +76,11 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+<<<<<<< HEAD
+=======
+db.sqlite3
+db.sqlite3-journal
+>>>>>>> 58b5283... Initial commit
 
 # Flask stuff:
 instance/
@@ -66,6 +95,7 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< HEAD
 # IPython Notebook
 .ipynb_checkpoints
 
@@ -87,3 +117,58 @@ ENV/
 
 # Rope project settings
 .ropeproject
+=======
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+>>>>>>> 58b5283... Initial commit
