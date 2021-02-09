@@ -1,0 +1,9 @@
+default_context:
+    project_name: "StockMarketSimulator"
+    app_name: "StockMarketApi"
+    python_version: "3.6"
+    admin_user_username: "kavrae"
+    admin_user_email: "croberts.business@gmail.com"
+    admin_user_password: "Parahuman89"
+    use_celery: "yes"
+    wsgi_server: "none"
